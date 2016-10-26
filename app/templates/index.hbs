@@ -6,22 +6,16 @@
 <div class="row">
   <div class="col-sm-8 well">
     <ul>
-      {{#each model as |review|}}
-        <li>
-          <div class="row well">
-            <div class="col-sm-6">
-              <h3>{{fa-icon "film"}} {{review.author}} - <em>{{review.title}}</em></h3>
-              <p>{{review.content}}</p>
-            </div>
-            <div class="col-sm-6">
-              <img class="movie-pics" src="{{review.image}}" alt="" />
-            </div>
-          </div>
-        </li>
+      {{#each model.reviews as |review|}}
+        {{review-tile review=review}}
       {{/each}}
-  </ul>
+    </ul>
   </div>
   <div class="col-sm-4">
-
+    <ul>
+      {{#each model.entries as |entry|}}
+        {{entry-tile entry=entry}}
+      {{/each}}
+    </ul>
   </div>
 </div>

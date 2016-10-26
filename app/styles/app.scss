@@ -10,6 +10,13 @@
   height: auto;
 }
 
+.entry-content {
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 5em;
+}
+
 ul {
   list-style-type: none;
 }
