@@ -4,18 +4,24 @@
 </div>
 
 <div class="row">
-  <div class="col-sm-4 well">
-<ul>
-    {{#each model as |review|}}
-    <li>
-      <h3>{{fa-icon "film"}} {{review.author}} - <em>{{review.title}}</em></h3>
-      <p>{{review.content}}</p>
-      <br>
-    </li>
-    {{/each}}
-</ul>
+  <div class="col-sm-8 well">
+    <ul>
+      {{#each model as |review|}}
+        <li>
+          <div class="row well">
+            <div class="col-sm-6">
+              <h3>{{fa-icon "film"}} {{review.author}} - <em>{{review.title}}</em></h3>
+              <p>{{review.content}}</p>
+            </div>
+            <div class="col-sm-6">
+              <img class="movie-pics" src="{{review.image}}" alt="" />
+            </div>
+          </div>
+        </li>
+      {{/each}}
+  </ul>
   </div>
-  <div class="col-sm-8">
+  <div class="col-sm-4">
 
   </div>
 </div>
