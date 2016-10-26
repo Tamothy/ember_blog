@@ -10,7 +10,14 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      }
+      },
+    },
+
+    firebase: {
+      apiKey: 'AIzaSyC7kQ-BnYDoYO-BvKk8fs1uTK6t3oAk67U',
+      authDomain: 'blog-34042.firebaseapp.com',
+      databaseURL: 'https://blog-34042.firebaseio.com',
+      storageBucket: 'blog-34042.appspot.com'
     },
 
     APP: {

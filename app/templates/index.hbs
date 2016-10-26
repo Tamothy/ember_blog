@@ -1,1 +1,21 @@
-Home
+<div class="jumbotron">
+  <h1>We keep it the Trillest!</h1>
+  <p>Read our reviews and blog posts!</p>
+</div>
+
+<div class="row">
+  <div class="col-sm-4 well">
+<ul>
+    {{#each model as |review|}}
+    <li>
+      <h3>{{fa-icon "film"}} {{review.author}} - <em>{{review.title}}</em></h3>
+      <p>{{review.content}}</p>
+      <br>
+    </li>
+    {{/each}}
+</ul>
+  </div>
+  <div class="col-sm-8">
+
+  </div>
+</div>
