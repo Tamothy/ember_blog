@@ -1,0 +1,19 @@
+<h1>Add, Edit, Delete Reviews and Blog entries</h1>
+
+
+{{entry-new saveEntry2="saveEntry3"}}
+
+<div class="row">
+  <div class="col-sm-8 well">
+    {{#each model.reviews as |review|}}
+      {{review-tile review=review}}
+    {{/each}}
+  </div>
+  <div class="col-sm-4">
+    <ul>
+      {{#each model.entries as |entry|}}
+        {{entry-tile entry=entry}}
+      {{/each}}
+    </ul>
+  </div>
+</div>
