@@ -14,7 +14,6 @@
     <ul>
       {{#each model.entries as |entry|}}
         {{#link-to 'entry' entry.id}}{{entry-admin-tile entry=entry destroyEntry="destroyEntry"}}{{/link-to}}
-        {{!-- <button class="btn btn-danger"{{action 'entryEditPage' entry}}>Edit Entry</button> --}}
       {{/each}}
     </ul>
   </div>
