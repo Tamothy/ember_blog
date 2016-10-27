@@ -51,3 +51,9 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+
+## Wish List
+* add functionality for editing reviews through a modal window
+* add entry and review view for customer to add and save comments
+* finish edit functionality for entries
+* incorporate more Semantic UI components (buttons, rating, etc.)

@@ -1,5 +1,5 @@
 <h1>Edit <em>"{{entry.title}}"</em></h1>
-<img src="{{entry.image}}" alt="" />
+<img class="ind-entry-img" src="{{entry.image}}" alt="" />
 <div>
   <form>
     <div class="form-group">
@@ -32,7 +32,7 @@
       {{input class="form-control" value=category placeholder=entry.category}}
     </div>
 
-    <button class="btn btn-success"{{action 'edit'}}>Save edits</button>
+    <button class="btn btn-success"{{action 'edit' entry}}>Save edits</button>
     <hr>
   </form>
 </div>
