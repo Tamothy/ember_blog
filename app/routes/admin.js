@@ -12,6 +12,9 @@ export default Ember.Route.extend({
     saveEntry3(params) {
       var newEntry = this.store.createRecord('entry', params);
       newEntry.save();
+    },
+    destroyEntry(entry) {
+      entry.destroyRecord();
     }
   }
 });

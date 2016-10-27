@@ -1,5 +1,6 @@
-<h1>Add, Edit, Delete Reviews and Blog entries</h1>
-
+<div class="jumbotron">
+  <h2 class="text-center">Add, Edit, Delete Reviews and Blog entries</h2>
+</div>
 
 {{entry-new saveEntry2="saveEntry3"}}
 
@@ -12,7 +13,7 @@
   <div class="col-sm-4">
     <ul>
       {{#each model.entries as |entry|}}
-        {{entry-tile entry=entry}}
+        {{entry-admin-tile entry=entry destroyEntry="destroyEntry"}}
       {{/each}}
     </ul>
   </div>
