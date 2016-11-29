@@ -1,7 +1,10 @@
-# Blog
+# Movie Blog (One-To-Many Relationship)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### By Tam Nguyen
+
+## Description
+
+Contains a movie blog utilizing Ember framework, implementing one-to-many relationship with movie reviews to movies.
 
 ## Prerequisites
 
@@ -15,45 +18,32 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone https://github.com/Tamothy/ember_blog` this repository
+* `cd ember_blog`
 * `npm install`
 * `bower install`
 
 ## Running / Development
 
-* `ember server`
+* `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Technologies Used
 
-Make use of the many generators for code, try `ember help generate` for more details
+Ember
 
-### Running Tests
+JavaScript
 
-* `ember test`
-* `ember test --server`
+Node
 
-### Building
+Gulp
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+CSS
 
-### Deploying
+HTML
 
-Specify what it takes to deploy your app.
+### License
 
-## Further Reading / Useful Links
+This software is licensed under the MIT license.
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
-
-## Wish List
-* add functionality for editing reviews through a modal window
-* add entry and review view for customer to add and save comments
-* finish edit functionality for entries
-* incorporate more Semantic UI components (buttons, rating, etc.)
+Copyright (c) 2016 **Tam Nguyen**
